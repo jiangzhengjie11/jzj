@@ -1,5 +1,5 @@
 <?php
-    require 'filterAndValidate/validateTest.php';
+    require 'filterAndValidate/index.php';
    // require 'testSort.php';
 	//require 'testArrayTwoSort.php';
 	//require 'arrayFunctionExersice.php';

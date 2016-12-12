@@ -1,3 +1,3 @@
-Ö÷ÒªÓÉÁ½¸öÎÄ¼þ£º
-ValidateClass.php  Õâ¸öÀàÀïÃæ·â×°ÁËÒ»Ð©·½·¨£ºÈçÓÊÏäµÄÑéÖ¤¡¢IPµÄÑéÖ¤¡¢URLµÄÑéÖ¤¡¢ÕûÐÎ·¶Î§µÄÑéÖ¤¡£
-validateTest.php  Ö÷ÒªÊÇ¶ÔÒ»Ð©·½·¨µÄ²âÊÔ
+ï»¿ä¸»è¦ç”±ä¸¤ä¸ªæ–‡ä»¶ï¼š
+ValidateClass.php  è¿™ä¸ªç±»é‡Œé¢å°è£…äº†ä¸€äº›æ–¹æ³•ï¼šå¦‚é‚®ç®±çš„éªŒè¯ã€IPçš„éªŒè¯ã€URLçš„éªŒè¯ã€æ•´å½¢èŒƒå›´çš„éªŒè¯ã€‚
+validateTest.php  ä¸»è¦æ˜¯å¯¹ä¸€äº›æ–¹æ³•çš„æµ‹è¯•

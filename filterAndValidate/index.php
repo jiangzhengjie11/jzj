@@ -1,0 +1,4 @@
+<?php
+    require 'validateTest.php';
+
+?>
