@@ -7,7 +7,7 @@
 	
 	echo $testValidate->getEmail().'</br>';
 	
-	$testValidate->setInt_input('6');
+	$testValidate->setIntInput('6');
 	
-	echo $testValidate->getInt_input();
+	echo $testValidate->getIntInput();
 ?>
