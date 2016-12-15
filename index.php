@@ -1,5 +1,5 @@
 <?php
-	echo "如果想查看对应作业，请到相应文件夹下的index.php中";
+	echo "作业中的readme会慢慢不上，那个markdown工具不太熟悉";
     //require 'filterAndValidate/index.php';
    // require 'testSort.php';
 	//require 'testArrayTwoSort.php';
