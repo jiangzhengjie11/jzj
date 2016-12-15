@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>文件上传</title>
+	</head>
+	<body>
+		<form action="fileUploadAndMultifileUpload.php" method="POST" enctype="multipart/form-data">
+			<span>请选择上传文件</span>
+			<input type="file" name="upload"/></br>
+			<input type="hidden" name="MAX_FILE_SIZE" value='10000000' />
+			<input type="submit" name="mySubmit" value="commit">
+		</form>
+	</body>
+</html>
