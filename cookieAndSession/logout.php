@@ -7,12 +7,11 @@
 	//$_SESSION=array();
 	setcookie(session_name(),'',time()-3600,'/');
 	setcookie('regName','',time()-3600);
-	setcookie('regName','',time()-3600);
 	setcookie('regPassword','',time()-3600);
 	session_destroy();
 	
 	echo $name."您已经退出";
-	var_dump($_COOKIE);
+	//var_dump($_COOKIE);
 ?>
 <!DOCTYPE HTML>
 <html>

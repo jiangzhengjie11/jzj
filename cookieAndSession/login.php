@@ -1,49 +1,29 @@
 ﻿<?php
 	session_start();
 	
-	//var_dump ($_SESSION['regName']);
-	//var_dump ($_COOKIE);
-	//var_dump ($_SESSION);
+
 	if(isset($_POST['submit'])){
 		
-		//if(($_COOKIE['regName']==$_POST['name'] && $_COOKIE['regPassword']==$_POST['password']) || (empty($_COOKIE['regName']) && empty($_COOKIE['regPassword'])))
-			if($_COOKIE['regName']==$_POST['name'] && $_COOKIE['regPassword']==$_POST['password']){
-				//var_dump ($_SESSION);
-				header("location:index.php");
-				//var_dump ($_COOKIE);
-				//var_dump ($_SESSION);
-				//die();
-				//echo "<script>";
-				//echo "location:index.php";
-				//echo "</script>";
+		
+			if($_SESSION['regName']==$_POST['name'] && $_SESSION['regPassword']==$_POST['password']){
+			
+				echo "<script>";
+				echo "location:index.php";
+				echo "</script>";
 				
-			}else if($_COOKIE['regName']!=$_POST['name'] || $_COOKIE['regPassword']!=$_POST['password']){
-			//echo "您的cookie文件被修改！！！";
+			}else if($_SESSION['regName']!=$_POST['name'] || $_SESSION['regPassword']!=$_POST['password']){
+		
 			
-		    //}else{
+		 
 			
-			echo "您的用户名或者密码错误！！！";
-		}else{
-			//include "comm.php";
+				echo "您的用户名或者密码错误！！！";
+			}else {
+				echo "您的用户名或密码为空！！";
+			}
+	}
+	else{
+			require "comm.php";
 		}
-	}
-	/*if(empty($_SESSION['regName'])&&empty($_SESSION['regPassword'])){
-		echo "你还未注册,请先注册";
-	}else if($_COOKIE['regName']!=$_POST['name'] || $_COOKIE['regPassword']!=$_POST['password']){
-		echo "您的用户名或者密码错误！！！";
-	}else if(!empty($_COOKIE['regName']) && $_COOKIE['regName']==$_POST['name'] && $_COOKIE['regPassword']==$_POST['password']){
-		header("Location:index.php");
-	}
-	
-	if(!empty($_COOKIE['regName']) && $_COOKIE['regName']==$_POST['name'] && $_COOKIE['regPassword']==$_POST['password']){
-		header("Loaction:index.php");
-	}else if(empty($_COOKIE['regName'])){
-		echo "你还未注册,请先注册";
-	}else if($_COOKIE['regName']!=$_POST['name'] || $_COOKIE['regPassword']!=$_POST['password']){
-		echo "您的用户名或者密码错误！！！";
-	}
-	//var_dump($_POST);
-	*/
 ?>
 <!DOCTYPE HTML>
 <html>
