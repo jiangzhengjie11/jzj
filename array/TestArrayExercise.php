@@ -1,0 +1,31 @@
+﻿<?php 
+	require "arrayExercise.php";
+	$ae=new arrayExercise();
+	echo "作业1</br>";
+	echo $ae->exerciseOne();
+	echo "</br>作业2</br>";
+	echo $ae->maxValue(168,53,20);
+	echo "</br>作业3</br>";
+	echo $ae->exerciseThree();
+	echo "</br>作业4</br>";
+	echo $ae->exerciseFour();
+	echo '由于timesTwo函数并没有返回值，所以$result值为空';
+	echo "</br>作业5</br>";
+	$ef=new exerciseFive();
+	echo $ef->autoTransformOne();
+	echo $ef->autoTransformTwo();
+	echo $ef->autoTransformThree();
+	echo "</br>作业6</br>";
+	echo $ae->exerciseSix();
+	echo "</br>作业7</br>";
+	echo $ae->exerciseSeven();
+	echo "</br>作业8</br>";
+	echo $ae->exchangeVariable(1,2);
+	echo "</br>作业9</br>";
+	$array=array('zhangsan','lisi','wangwu');
+	echo $ae->divisionArray($array);
+	echo "作业10</br>";
+	echo $ae->arrayRecombination();
+	echo "作业11</br>";
+	echo $ae->multiplicationTable(99);
+?>
